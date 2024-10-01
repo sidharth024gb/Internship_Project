@@ -1,0 +1,46 @@
+.checkoutPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://res.cloudinary.com/dcaa8vuwv/image/upload/v1718211336/seamless-pattern-with-groceries-vegetables-fruits-white-background-hand-drawn-vector_642878-865_no6wkj.png");
+  padding: 20px 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.checkoutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%,0.5);
+  width: 40vw;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0);
+}
+.tick {
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  color: green;
+}
+.thanks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.thanks h2{
+  margin-bottom: 0px;
+}
+.thanks a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #12129f;
+}
+.thanks h4{
+    margin-top: 0px;
+}
+.thanks p{
+    color: rgba(0, 0, 0, 0.614);
+}

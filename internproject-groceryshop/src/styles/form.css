@@ -1,0 +1,100 @@
+.form-page {
+  padding: 20px 0px;
+  background-image: url("https://res.cloudinary.com/dcaa8vuwv/image/upload/v1718211336/seamless-pattern-with-groceries-vegetables-fruits-white-background-hand-drawn-vector_642878-865_no6wkj.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.form-container {
+  background-color: hsl(0, 0%, 100%,0.1);
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 5px hsl(0, 0%, 20%, 0.5);
+}
+.form-head {
+  display: flex;
+  justify-content: center;
+}
+.form-title {
+  border-bottom: 3px solid #55883b;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2px;
+  margin-top: 0px;
+}
+.form-input-box {
+  padding: 20px;
+  background-color: hsl(0, 0%, 0%);
+  margin: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.form-input-box label{
+  padding-top: 0.2em;
+  color: white;
+}
+.radio{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form-radio{
+  margin-left: 2em;
+}
+.form-input {
+  width: 85%;
+  color: white;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: medium;
+  outline: none;
+  background-color: black;
+}
+.form-icon {
+  margin: auto 10px;
+  font-weight: bold;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-submit {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.form-submit button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #014211;
+  color: white;
+  font-size: inherit;
+  width: 50%;
+  font-family: inherit;
+}
+
+.form-choice {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.choice {
+  color: white;
+  background-color: #014211;
+  padding: 10px;
+  font-size: larger;
+  border-radius: 15px;
+  width: 40%;
+  text-align: center;
+  cursor: pointer;
+}
+.gray {
+  background-color: gray;
+}

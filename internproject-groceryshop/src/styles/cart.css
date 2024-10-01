@@ -1,0 +1,117 @@
+.CartPage {
+  padding: 20px 0px;
+  background-image: url("https://res.cloudinary.com/dcaa8vuwv/image/upload/v1718211336/seamless-pattern-with-groceries-vegetables-fruits-white-background-hand-drawn-vector_642878-865_no6wkj.png");
+}
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartItem {
+  background-color: hsl(0, 0%, 100%, 0.6);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  margin: 10px 0px;
+  position: relative;
+  animation: cart 1s ease-in-out;
+}
+@keyframes cart {
+  from {
+    width: 10vw;
+  }
+  to {
+    width: 90vw;
+  }
+}
+.cartDiscount {
+  z-index: 2;
+  background-color: rgb(71, 111, 0);
+  position: absolute;
+  padding: 0.3em 0.5em;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  border-radius: 0px 0px 10px 0px;
+}
+.cartItemImg {
+  width: 10em;
+  display: flex;
+}
+.cartImg {
+  width: 10em;
+  height: 7em;
+}
+.cartContainer hr {
+  border: 1px solid;
+}
+.cartItemInfo {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cartItemInfo .ItemInfo {
+  font-weight: bold;
+  width: 5em;
+  text-align: center;
+}
+.cartTotal {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
+}
+.totalPriceContainer {
+  display: flex;
+  justify-content: center;
+}
+.totalPrice {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cartTotal button {
+  border: none;
+  background-color: #0a089a;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.itemCount {
+  display: flex;
+  justify-content: space-between;
+  width: 5em;
+}
+.removeButton {
+  border: none;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 10px;
+}
+.cart-empty {
+  font-size: xx-large;
+  background-color: white;
+  align-items: center;
+  width: 70vw;
+  height: 30vw;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}

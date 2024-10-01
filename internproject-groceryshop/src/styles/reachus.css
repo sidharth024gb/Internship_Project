@@ -1,0 +1,61 @@
+.reachus{
+    padding: 10px 0px;
+    background-color: #55883B;
+}
+.complaintBox{
+    width: 90vw;    
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: flex-end;
+    margin: 20px auto;
+}
+.complaintBox .reachsend{
+    width: 20%;
+    padding: 10px;  
+    position: relative;
+    border: none;
+    background-color: rgb(83, 13, 149);
+    font-size: medium;
+    font-weight: bold;
+    color: hsl(0, 0%, 90%);
+    border-radius: 20px;
+}
+.complaintBox .reachsend:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0,0.5);
+}
+.complaintBox .complaint{
+    width: 98%;
+    height: 50%;
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+}
+.reachContent{
+    width: 90vw;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.reachContent .reachpara{
+    text-indent: 20px;
+    font-family: Garamond;
+}
+.reachContent .reachhead{
+    font-family: serif;
+    border-bottom:2px solid #55883B;
+}
+.reachContent:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0,0.8);
+}
+.complaintBox:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0,0.8);
+}

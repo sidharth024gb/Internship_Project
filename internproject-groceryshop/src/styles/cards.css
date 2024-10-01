@@ -1,0 +1,108 @@
+.CardsPage {
+  padding: 20px 0px;
+  background-image: url("https://res.cloudinary.com/dcaa8vuwv/image/upload/v1718211336/seamless-pattern-with-groceries-vegetables-fruits-white-background-hand-drawn-vector_642878-865_no6wkj.png");
+}
+.cardDetails {
+  display: flex;
+  border: 1px solid;
+  width: 70vw;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 100%,0.5);
+  box-shadow: 0px 0px 10px hsl(0, 0%, 0%);
+}
+.cardImg {
+  width: 20em;
+  height: 20em;
+}
+.cardImgHolder {
+  width: 30%;
+  height: 100%;
+  margin: 20px;
+}
+.cardContent {
+  padding: 0px 20px;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cardContent p:nth-of-type(3) span:only-child{
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: hsl(120, 100%, 40%);
+}
+.desind {
+  padding-left: 20px;
+}
+.cardName {
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid forestgreen;
+  width: fit-content;
+}
+.cardATC {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  background-color: white;
+  font-weight: bold;
+}
+.cardATC:hover {
+  background-color: red;
+  color: white;
+}
+.speciality {
+  border: 1px solid;
+  background-color: hsl(0, 0%, 100%,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px hsl(0, 0%, 0%);
+}
+.specialContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.specialhead {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid forestgreen;
+  border-radius: 2px;
+}
+.special {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 30px;
+}
+.special:hover {
+  /* box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.5); */
+  color: white;
+  background-color: black;
+}
+.specialtext {
+  font-weight: bold;
+  margin: 0px;
+}
+.specialtextlight {
+  font-size: small;
+  opacity: 0.5;
+  margin: 0px;
+}
+.cardicon {
+  margin: 20px;
+  font-weight: bold;
+  font-size: x-large;
+}

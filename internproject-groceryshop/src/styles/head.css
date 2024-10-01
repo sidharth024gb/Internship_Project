@@ -1,0 +1,205 @@
+.container {
+  z-index: 10;
+  position: sticky;
+  top: 0%;
+  background-color: #355e3b;
+  /* border-radius: 0px 0px 10px 10px; */
+  box-shadow: 0px 5px 5px hsl(0, 0%, 0%, 0.5);
+}
+.head_info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5vw;
+}
+h2 span {
+  color: hsl(120, 90%, 45%);
+}
+#search {
+  width: 30vw;
+  height: 20%;
+  outline: none;
+  align-self: center;
+  animation: slowmove 1s ease-in-out;
+}
+@keyframes slowmove {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 30vw;
+  }
+}
+hr {
+  margin: 0px;
+  border: 1px solid hsl(120, 8%, 18%);
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  height: 9vh;
+}
+.navHolder {
+  position: relative;
+  animation: navshow 0.5s ease-in-out ;
+}
+@keyframes navshow {
+  0% {
+    height: 0vh;
+    opacity: 0;
+  }
+  95% {
+    opacity: 0.5;
+  }
+  100% {
+    height: 9vh;
+    opacity: 1;
+  }
+}
+.headLink {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  height: 50px;
+  margin: 0%;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+.headLink:hover {
+  background-color: #6b8e23;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.dropdown-content .dropdown-link {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 10em;
+  background-color: hsl(120, 20%, 90%);
+  border-radius: 10px;
+}
+.dropdown-menu {
+  cursor: pointer;
+}
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: hsl(80, 50%, 45%);
+  color: hsl(0, 0%, 90%);
+}
+.headicon {
+  align-self: center;
+  position: relative;
+}
+.cartItemCount {
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 0px 2px;
+  font-size: small;
+  margin: 0px;
+  border-radius: 50%;
+}
+.Login {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.Login:hover {
+  color: hsl(120, 90%, 45%);
+}
+.profile {
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  border: 1px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  width: 25vw;
+  z-index: 2;
+  animation: appear 0.5s ease-in-out backwards;
+}
+@keyframes appear {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0%;
+  }
+}
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.profile-content span {
+  margin: 10px 20px;
+}
+.profile-icon {
+  font-weight: bold;
+  font-size: large;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+}
+.profile-icon:hover {
+  color: hsl(120, 90%, 45%);
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchIcon {
+  align-self: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.searchIcon:hover{
+  color: hsl(120, 90%, 45%);
+}
+.iconHolder {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.storeName {
+  margin: 0.5em 0em;
+}
+.storeNameLink{
+color: white;
+text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.aboutblock{
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    align-items: center;
+    border-radius: 20px;
+    width: 90vw;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.abouthead{
+    font-family: serif;
+    /* border-bottom: 2px solid #530E70; */
+    border-bottom: 2px solid #55883B;
+} 
+.aboutpara{
+    font-family: Garamond;
+}
+.ind{
+    text-indent: 30px;
+}
+.aboutcontainer{
+    /* background-color: hsl(282, 78%, 25%); */
+    background-color: #55883B;
+    padding: 10px 0px;
+}
+.aboutblock:hover{
+  box-shadow: 4px 4px 6px rgba(0, 0, 0,0.8);
+}
